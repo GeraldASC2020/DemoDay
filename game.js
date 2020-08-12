@@ -109,13 +109,13 @@ function draw(){
         image(wc, wcXpos, wcYpos,70,70);
         image(trash, trashXpos, trashYpos, 70, 70);
 
-        bagYpos +=5;
-        seedsYpos +=5
-        canYpos += 5;
+        bagYpos +=6;
+        seedsYpos +=10;
+        canYpos += 7;
         gtYpos += 5;
-        wcYpos += 5;
-        trashYpos += 5;
-        tbYpos +=5;
+        wcYpos += 6;
+        trashYpos += 7;
+        tbYpos +=8;
 
       if (score == 250) {
         state = "over"
