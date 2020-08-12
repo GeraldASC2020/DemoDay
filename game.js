@@ -118,11 +118,14 @@ function draw(){
         tbYpos +=5;
 
       if (score == 250) {
-          background(255);
-          textSize(40);
-          text("You win", 400,300);
+        state = "over"
 
         }
+      if (state == "over"){
+         background(255);
+          textSize(40);
+          text("You win", 300,300);
+      }
 
     }
 }
