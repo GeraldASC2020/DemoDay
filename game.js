@@ -29,7 +29,7 @@ let start;
 function preload(){
 bgImage = loadImage("Images/natureb.png");
 player = loadImage("Images/Gardener.png");
-bag = loadImage("Images/plasticBag.png");
+bag = loadImage("Images/plasticbag.png");
 can = loadImage("Images/Can.png");
 trash = loadImage("Images/plasticbag.png");
 tb = loadImage("Images/trashbag-withshadow.png");
